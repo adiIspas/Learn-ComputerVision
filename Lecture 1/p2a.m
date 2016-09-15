@@ -1,0 +1,1 @@
+rand(4) %Generate a 4x4 matrix with random numbers
