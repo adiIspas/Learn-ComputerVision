@@ -29,9 +29,6 @@ for i=1:size(A,1)
        
          
         m=m+1;
-       
-       
-       
     end
    
 end
@@ -43,7 +40,6 @@ n=1;
 for i=1:size(A,1)
     for j=1:size(A,2)
         C(x1(n),x2(n),:)=A(i,j,:);
-       
         n=n+1;
     end
    
