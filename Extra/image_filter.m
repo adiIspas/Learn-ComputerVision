@@ -22,3 +22,8 @@ emphasis_image = image + detail_image;
 figure('name', 'Image emphasis');
 imshow(emphasis_image);
 
+filter = 1/81 * ones(9,9);
+image_with_my_filter = imfilter(image,filter);
+figure('name', 'Image with my filter');
+imshow(image_with_my_filter);
+
