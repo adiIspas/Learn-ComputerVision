@@ -1,4 +1,4 @@
-image = rgb2gray(imread('girl.jpg'));
+image = rgb2gray(imread('poisson.jpg'));
 figure('name', 'Original image');
 imshow(image);
 
